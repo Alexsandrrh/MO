@@ -1,0 +1,164 @@
+/*FONTS*/
+font-family: 'Montserrat', sans-serif;
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Titillium Web', sans-serif;
+@font-face {
+	font-family: Segoe UI Light;
+	scr: url(../fonts/Segoe UI Light.ttf);
+}
+/* BASE SETTINGS*/
+body, h1, h2, h3, p {
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1080px;
+}
+
+.block-download {
+	float: left;
+	padding: 5px 18px 5px 0;
+}
+
+.block-download p, a {
+	font-size: 18px;
+}
+
+.items {
+	padding-bottom: 80px;
+}
+
+/* MAIN MENU */
+
+header {
+	font-family: Segoe UI Light;
+	margin: 0 auto;
+	padding: 0 40px;
+	width: 1080px;
+	margin-bottom: 30px;
+}
+
+header a {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 40px;
+}
+
+#nav ul{
+    list-style: none;
+}
+
+#nav > ul > li{
+    float: left;
+    width: 180px;
+    position: relative;
+}
+
+#nav li a{
+    display: block;
+    color: #060A13;
+    background-color: #E6E6FA;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background: #2F718E;
+}
+
+#nav li .submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav li:hover .submenu{
+    display: block;
+}
+
+#nav li li{
+    width: 180px;
+}
+
+/* SECTION-MAIN*/
+.section-main {
+	padding-bottom: 80px;
+}
+
+.s-main-block {
+	float: left;
+	padding:0 10px;
+}
+
+.s-main-block img {
+	width: 70px;
+}
+
+.b-main-block {
+	margin: 0 auto;
+	width: 540px;
+	padding: 80px 0;
+}
+
+.b-main-block img {
+	width: 540px;
+}
+
+.others-product {
+	float: left;
+	margin: 0 30px;
+	text-align: center;
+}
+
+.others-product a {
+	background-color: #3f7fbf;
+	color: #fff;
+	padding: 2px 12px;
+	border-radius: 10px;
+}
+
+.about-product {
+	text-align: center;
+	margin-left: 16px;
+}
+
+.about-product h3 {
+	font-size: 24px;
+}
+
+.about-title {
+	width: 500px;
+	height: 180px;
+	overflow-y: scroll;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-color: #565656;
+}
+}
+
+.img-product img {
+	width: 128px;
+}
